@@ -1,9 +1,8 @@
-const BouncebackTestToken = artifacts.require("BouncebackTestToken");
+const BBTToken = artifacts.require("BouncebackTestToken.sol");
 
-module.exports = function (deployer, name, symbol, decimals) {
-  deployer.deploy(BouncebackTestToken, "Bounce Back Test Token", "BBTT", 18);
+module.exports = function (deployer) {
+  deployer.deploy(BBTToken, 7000000);
 };
-
 // const BouncebackTestToken = artifacts.require("BouncebackTestToken");
 
 // module.exports = function (deployer) {

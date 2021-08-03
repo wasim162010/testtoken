@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.img-loading {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: url("loading.gif");
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 10000000;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
